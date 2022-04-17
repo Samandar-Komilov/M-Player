@@ -1,0 +1,92 @@
+body {
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: 100vh;
+  border: 1px solid blue;
+  margin: 0;
+  padding: 0;
+}
+
+.audio-container {
+  width: 20%;
+  height: 70%;
+  padding: 30px;
+  border-radius: 50px 0;
+  background: #e0e0e0;
+  box-shadow:  25px 25px 46px #bcbcbc,
+             -25px -25px 46px #ffffff;
+}
+
+/* IMAGE */
+
+#audio-cover {
+  border-radius: 11%;
+}
+
+/* TITLE va PROGRESS */
+
+#title {
+  font-family: Verdana,sans-serif;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+#artist {
+  color: rgb(60, 60, 60);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.progress-container {
+  background-color: rgb(154, 154, 154);
+  border-radius: 5px;
+  width: 100%;
+  height: 1%;
+  margin: 3% 0 3% 0;
+}
+
+.progress {
+  background-color: rgb(55, 55, 55);
+  height: 100%;
+  width: 30%;
+  border-radius: 5px;
+  transition: 0.1s linear;
+  margin-top: 8%;
+}
+
+/* BUTTONS */
+
+.navigation {
+  display: flex;
+  margin-top: 30%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.action-btn {
+  padding: 10%;
+  border: none;
+  color: rgb(55, 55, 55);
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* #play {
+  background-color: rgb(14, 86, 255);
+  color: #fff;
+} */
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  color: rgb(55, 55, 55);
+}
+
+.play-nav {
+  width: 50%;
+  display: flex;
+}

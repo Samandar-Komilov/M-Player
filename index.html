@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Simple Music Player</title>
+</head>
+<body>
+  
+  <div class="main">
+    <div class="audio-container" id="audio-container">
+      <div class="img-container" width="100%">
+        <img src="./images/nothing.jpg" alt="Music cover" id="audio-cover" width="100%" height="100%">
+      </div>
+      <div class="title">
+        <h4 id="title">Melody name</h4>
+        <h5 id="artist" style="margin: 0;">Artist name</h5>
+      </div>
+      <audio src="" id="audio"></audio>
+
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+      <p id="current"></p>
+
+      <div class="navigation">
+        <button id="dislike" class="nav-btn">
+          <i class="fas fa-heart-crack" style="font-size: 17px;" id="dislikeIcon"></i>
+        </button>
+        <div class="play-nav">
+          <button class="action-btn nav-btn" id="prev">
+            <i class="fas fa-backward" style="font-size: 20px;"></i>
+          </button>
+          <button class="action-btn" id="play">
+            <i class="fas fa-play" style="font-size: 20px; margin: 1px 0 0 3px;"></i>
+          </button>
+          <button class="action-btn nav-btn" id="next">
+            <i class="fas fa-forward" style="font-size: 20px;"></i>
+          </button>
+        </div>
+        <button id="like" class="nav-btn">
+          <i class="fas fa-heart" style="font-size: 17px;" id="likeIcon"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
